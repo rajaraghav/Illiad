@@ -23,7 +23,7 @@ os.path.join(BASE_DIR, 'templates'),
 SECRET_KEY = 'r*@#$x^v8w_ra^_9w@ln&xxda)sp$#h3dk-=zr_gmb=d!dth*0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+
 
 ALLOWED_HOSTS = ['illiad.herokuapp.com', 'localhost']
 
