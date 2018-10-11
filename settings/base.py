@@ -23,7 +23,7 @@ os.path.join(BASE_DIR, 'templates'),
 SECRET_KEY = 'r*@#$x^v8w_ra^_9w@ln&xxda)sp$#h3dk-=zr_gmb=d!dth*0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-
+#DEBUG=True;
 
 ALLOWED_HOSTS = ['illiad.herokuapp.com', 'localhost']
 
@@ -43,6 +43,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',  # add whitenoise
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
