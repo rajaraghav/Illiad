@@ -375,7 +375,7 @@ pre {
 		height: 100vh;
 		background-color: var(--md_blue_grey_300);
 		align-items: center;
-		padding: 1rem 0 0 0;
+		padding: 5rem 0 0 0;
 		flex-direction: column-reverse;
 		justify-content: space-around;
 	}
