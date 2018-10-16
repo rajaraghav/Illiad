@@ -7,6 +7,7 @@ $(document).ready(function() {
 		infinite: true
 	});
 });
+console.log("fin");
 var currDay = 0;
 
 let mainTweet = document.getElementById("tweetsComponent__text");
