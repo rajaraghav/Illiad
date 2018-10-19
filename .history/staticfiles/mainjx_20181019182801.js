@@ -40,7 +40,7 @@ var changeDay = function() {
 	mainTweet.innerText = myTweets[99 - currDay].tweet;
 	tweetDate.innerText = myTweets[99 - currDay].createdDate;
 	logDate.innerText = `Day ${currDay}`;
-	instaStory.src = `images/insta/d${currDay}.jpg`;
+	instaStory.src = `/static/images/insta/d${currDay}.jpg`;
 	logsCode.innerHTML = myCode[currDay].data;
 };
 var nextDay = function() {
